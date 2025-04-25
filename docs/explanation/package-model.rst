@@ -244,7 +244,7 @@ Binary packages
 ---------------
 
 A **binary package** is a standardised format that the :term:`Package Manager`
-(:manpage:`dpkg(1)` or :manpage:`apt(8)`) can understand to install and
+(:manpage:`dpkg(1)` or :manpage:`apt(8)`) can use to install and
 uninstall software on a target machine. This simplifies distributing software
 to a target machine and managing the software on that machine.
 
