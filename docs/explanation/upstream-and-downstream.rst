@@ -1,7 +1,7 @@
 Upstream and downstream
 =======================
 
-An :term:`Ubuntu` installation consists of :term:`packages <Package>` - copied
+An :term:`Ubuntu` installation consists of :term:`packages <Package>` copied
 and unpacked onto the target machine. The Ubuntu project packages, distributes
 and maintains software of thousands of :term:`open source <Open Source Software>`
 projects for users, ready to install. The collection of Ubuntu packages is
@@ -20,8 +20,8 @@ In the context of open source software development, the analogy of a stream
 that carries modifications, improvements, and code is used. It describes the
 relationship and direction of changes made between projects. This stream
 originates (upwards) from the original project (and related entities like
-:term:`Source Code`, authors, and maintainers) and flows downwards to projects
-(and associated entities) that depend on it.
+:term:`source code <Source Code>`, authors, and maintainers) and flows downwards
+to projects (and associated entities) that depend on it.
 
 Ubuntu delta
 ~~~~~~~~~~~~
