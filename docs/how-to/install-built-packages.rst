@@ -1,16 +1,16 @@
 Install built packages
 ======================
 
-You have a built :term:`binary packages <Binary Package>` of a
+If you have a built :term:`binary package <Binary Package>` of a
 :term:`source package <Source Package>` and want to install it
-(e.g. to test the packages). This article demonstrates multiple ways 
-how you can achieve that.
+(e.g. to test the packages), this article demonstrates multiple
+different ways to achieve that.
 
 Using your package manager
 --------------------------
 
 You can use the :manpage:`apt(8)`, :manpage:`apt-get(8)` or :manpage:`dpkg(1)`
-:term:`package manager <Package Manager>` to install or uninstall
+:term:`package managers <Package Manager>` to install or uninstall
 packages on an Ubuntu installation.
 
 .. note::
@@ -85,7 +85,7 @@ Install ``.deb`` files
 Uninstall packages
 ~~~~~~~~~~~~~~~~~~
 
-Installed packages often setup configuration files and create other data files.
+Installed packages often set up configuration files and create other data files.
 When you want to uninstall a package you have to decide if you want to keep these
 files or want to delete them too.
 
@@ -371,7 +371,7 @@ PPA.
     The version of the package to download.
 
 The :command:`pull-ppa-debs` command is part of the ``ubuntu-dev-tools``
-package. You need to install it, before you can use it:
+package. You need to install it before you can use it:
 
 .. code-block:: bash
 
@@ -385,7 +385,7 @@ package. You need to install it, before you can use it:
     - ``pull-debian-debs`` (to download binary packages from the Debian archive).
 
 For example, on an :term:`amd64` machine, the following command will download the
-binary package named ``hello`` and targeting ``amd64`` from the Launchpad PPA named
+binary package named ``hello``, targeting ``amd64`` from the Launchpad PPA named
 ``hello`` of the Launchpad user ``dviererbe``:
 
 .. code-block:: bash
