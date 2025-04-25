@@ -15,7 +15,7 @@ for newly available updates of the upstream project.
 
 .. note::
     If the source package does not contain a :file:`debian/watch` file, there may be
-    an explanation and instructions in the :file:`debain/README.source` or
+    an explanation and instructions in the :file:`debian/README.source` or
     :file:`debian/README.debian` file (if available) that tell you how to proceed.
 
 Best practices
@@ -42,7 +42,7 @@ Download new upstream version (if available)
 --------------------------------------------
 
 Running :manpage:`uscan(1)` from the :term:`Root` of the :term:`Source Tree` will
-check if a newer upstream version exists and downloads it:
+check if a newer upstream version exists and download it:
 
 .. code-block:: bash
 
@@ -113,7 +113,7 @@ version to download from the first entry in :file:`debian/changelog` file:
 .. note::
 
     The ``--download-version`` and ``--download-current-version`` flags are
-    both a :term:`best-effort` features of :manpage:`uscan(1)`.
+    both :term:`best-effort` features of :manpage:`uscan(1)`.
     
     There are special cases where they do not work for technical reasons.
 
