@@ -322,7 +322,7 @@ what commands are run in each target, run:
     dh binary-arch --no-act
 
 Commands in the ``binary-indep`` sequence are passed the "-i" option to ensure
-they only work on binary independent packages, and commands in the binary-arch
+they only work on architecture independent packages, and commands in the binary-arch
 sequences are passed the "-a" option to ensure they only work on architecture
 dependent packages.
 
