@@ -147,7 +147,9 @@ The first stanza describes the source package. It contains the following fields:
   been classified.
 - ``Priority`` (recommended): How important the package is.
 - ``Build-Depends`` fields: Lists the packages required to build the package
-  from source. For a full list of the 
+  from source. For a full list of the fields, see
+  `Declaring relationships between packages (Section 7.7) <policy-source-relations_>`_
+  of the Debian policy manual.
 - ``Standards-Version`` (required): The version of Debian Policy that the
   package complies with.
 - ``Homepage``: The :term:`upstream <Upstream>` home page.
@@ -175,7 +177,10 @@ be built. These stanzas contain the following fields:
 - ``Essential``: Optional boolean field to prevent the package manager from
   removing the package when set to ``yes``. When this field is absent, the
   default behaviour is ``no``.
-- ``Depends`` fields:
+- ``Depends`` fields: Contains relationships between this package and other packages.
+  For a full list of the fields, see
+  `Declaring relationships between packages (Section 7.2) <policy-binary-deps_>`_ of the
+  Debian policy manual.
 - ``Description`` (required): Contains a description of the binary package. This
   field consists of a synopsis and a long description.
 - ``Homepage``: The upstream home page.
@@ -498,6 +503,8 @@ discusses additional files that may be used.
 .. _policy-control: https://www.debian.org/doc/debian-policy/ch-controlfields.html
 .. _policy-copyright: https://www.debian.org/doc/debian-policy/ch-docs.html#s-copyrightfile
 .. _policy-rules: https://www.debian.org/doc/debian-policy/ch-source.html#s-debianrules
+.. _policy-source-relations: https://www.debian.org/doc/debian-policy/ch-relationships.html#s-sourcebinarydeps
+.. _policy-binary-deps: https://www.debian.org/doc/debian-policy/ch-relationships.html#s-binarydeps
 .. _maint-install: https://www.debian.org/doc/manuals/maint-guide/dother.en.html#install
 .. _policy-watch: https://www.debian.org/doc/debian-policy/ch-source.html#s-debianwatch
 .. _DebSrc3.0: https://wiki.debian.org/Projects/DebSrc3.0
